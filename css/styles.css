@@ -1,0 +1,84 @@
+:root {
+    /* Fonts */
+    --primary-font:'Roboto', sans-serif;
+   
+    /* Text colors */
+    --main-txt-cl: #2E2F42;
+    --secondary-txt-cl: #434455;
+    --accent-txt-cl: #ff6c00;
+    /* Bg colors */
+    --main-bg-cl: ;
+    --secondary-bg-cl: ;
+    --accent-bg-cl: ;
+    /* Common colors */
+    --light-gray-cl: ;
+    --gray-cl: ;
+    --gray-cl-60: 
+    /* Others */
+}
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+body {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--main-txt-cl);
+}
+    /* reset */
+    
+.link {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+button {
+    font-family: inherit;
+    color: currentColor;
+    cursor: pointer;
+}
+  |============================| Header styles |============================*/ 
+  
+  .header {
+      background-color: var(--main-bg-cl);
+  }
+
+  .header-logo {
+    
+  }
+
+  .header-img {}
+
+  .header-nav {}
+
+  .header-nav-list {}
+
+  .header-nav-item {}
+
+  .header-nav-link {
+      font-weight: 500;
+     
+  }
+
+  .header-nav-link:hover,
+  .header-nav-link:focus {
+      color: var(--accent-txt-cl);
+  }
+
+  .header-contact {
+      color: var(--secondary-txt-cl);
+  }
+
+  .header-contact:hover,
+  .header-contact:focus {
+      color: var(--accent-txt-cl);
+  }
+
+  .header-btn {}
