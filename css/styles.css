@@ -5,16 +5,9 @@
     /* Text colors */
     --main-txt-cl: #2E2F42;
     --secondary-txt-cl: #434455;
-    --accent-txt-cl: #ff6c00;
+    --accent-txt-cl: #404BBF;
     /* Bg colors */
-    --main-bg-cl: ;
-    --secondary-bg-cl: ;
-    --accent-bg-cl: ;
-    /* Common colors */
-    --light-gray-cl: ;
-    --gray-cl: ;
-    --gray-cl-60: 
-    /* Others */
+    --dark-bg: #2E2F42
 }
 /**
   |============================
@@ -31,20 +24,67 @@ body {
     /* reset */
     
 .link {
-    color: currentColor;
     text-decoration: none;
 }
 
 .list {
     list-style: none;
 }
-
 button {
     font-family: inherit;
-    color: currentColor;
+    color: #FFFFFF;
     cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    letter-spacing: 0.04em;
+      
 }
-  |============================| Header styles |============================*/ 
+
+.btn {
+    background: #4D5AE5;
+}
+.btn-light {
+    background: #F4F4FD;
+    color: #4D5AE5;
+}
+.btn-dark {
+    background: #404BBF;
+    
+}
+.uppertitle {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: #FFFFFF
+}
+.undertitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.title,
+.card-content {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.12;
+    
+}
+.footer-text {
+    color: #F4F4FD;
+}
+
+.darkbg {
+    background: #2E2F42;
+}
+  /**
+  |============================
+  | Header styles
+  |============================
+*/
   
   .header {
       background-color: var(--main-bg-cl);
@@ -64,7 +104,7 @@ button {
 
   .header-nav-link {
       font-weight: 500;
-     
+
   }
 
   .header-nav-link:hover,
@@ -81,4 +121,6 @@ button {
       color: var(--accent-txt-cl);
   }
 
-  .header-btn {}
+  
+
+  
