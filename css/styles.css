@@ -29,7 +29,7 @@ body {
 .list {
     list-style: none;
 }
-button {
+.btn {
     font-family: inherit;
     color: #FFFFFF;
     cursor: pointer;
@@ -38,16 +38,13 @@ button {
     line-height: 1.50;
     display: flex;
     letter-spacing: 0.04em;
-      
+    background-color: #4D5AE5;
 }
 
-.btn {
-    background-color: #4D5AE5;
 
 .btn:hover,
 .btn:focus {
     background-color: #404BBF;
-}   
 }
 .btn-light {
     background-color: #F4F4FD;
