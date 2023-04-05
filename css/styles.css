@@ -4,7 +4,6 @@
    
     /* Text colors */
     --main-txt-cl: #2E2F42;
-    --secondary-txt-cl: #434455;
     --accent-txt-cl: #404BBF;
     /* Bg colors */
     --dark-bg: #2E2F42
@@ -17,9 +16,11 @@
 body {
     font-family: var(--primary-font);
     font-size: 16px;
+    color: #434455;
+    background color: #FFFFFF;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: var(--main-txt-cl);
+    
 }
     /* reset */
     
@@ -41,14 +42,14 @@ button {
 }
 
 .btn {
-    background: #4D5AE5;
+    background color: #4D5AE5;
 }
 .btn-light {
-    background: #F4F4FD;
+    background color: #F4F4FD;
     color: #4D5AE5;
 }
 .btn-dark {
-    background: #404BBF;
+    background color: #404BBF;
     
 }
 .uppertitle {
@@ -81,14 +82,14 @@ button {
     background: #2E2F42;
 }
 .logo link {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 .header-logo-span {
     color: #2E2F42;
@@ -130,7 +131,7 @@ button {
   }
 
   .header-contact {
-      color: var(--secondary-txt-cl);
+    
   }
 
   .header-contact:hover,
