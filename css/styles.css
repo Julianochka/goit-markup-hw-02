@@ -45,10 +45,12 @@ body {
     color: #4D5AE5;
 
 }
-.btn:hover,
+.btn:hover {
+    background-color: #404BBF;
+}
 .btn:focus {
     background-color: #404BBF;
-    color: #FFFFFF;
+    
 }
 
 
@@ -76,12 +78,14 @@ body {
     font-size: 20px;
     line-height: 1.12;
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 .card-content {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.12;
     color: #2e2f42;
+    letter-spacing: 0.02em;
     
 }
  
