@@ -48,6 +48,7 @@ body {
 .btn:hover,
 .btn:focus {
     background-color: #404BBF;
+    color: #FFFFFF;
 }
 
 
