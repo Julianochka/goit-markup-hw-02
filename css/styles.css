@@ -40,16 +40,16 @@ body {
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
 }
+.btn btn-light {
+    background-color: #F4F4FD;
+    color: #4D5AE5;
 
+}
 .btn:hover,
 .btn:focus {
     background-color: #404BBF;
 }
-.btn-light {
-    background-color: #F4F4FD;
-    color: #4D5AE5;
-    
-}
+
 
 .uppertitle {
     font-weight: 700;
