@@ -80,6 +80,23 @@ button {
 .darkbg {
     background: #2E2F42;
 }
+.logo link {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.header-logo-span {
+    color: #2E2F42;
+}
+.footer-logo-span {
+    color: #F4F4FD;
+}
+
   /**
   |============================
   | Header styles
