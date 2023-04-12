@@ -139,6 +139,7 @@ body {
 
   .header-logo {
     
+    
   }
 
   .header-img {}
@@ -158,7 +159,10 @@ body {
   .header-nav-link:focus {
       color: var(--accent-txt-cl);
   }
-
+  
+  .header-address {
+    font-style: normal;
+  }
   .header-contact {
     
   }
